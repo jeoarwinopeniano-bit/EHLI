@@ -1,0 +1,16 @@
+@use "variable" as *;
+
+@mixin card {
+    background: $white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+@mixin button {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 18px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
